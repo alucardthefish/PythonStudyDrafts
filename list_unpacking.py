@@ -10,7 +10,7 @@ employee_info = [
     "Company Car",
     "Spotify membership",
     "Internet bonus",
-    "Meals bonus"
+    "Meals bonus",
 ]
 
 name, last_name, dob, height, weight, salary, *perks = employee_info
@@ -24,7 +24,16 @@ print("salary: ", salary)
 print("perks: ", perks)
 
 print("----------------------Second-Unpacking-list---------------------------")
-employee_name, employee_last_name, *personal_employee_info, employee_salary, perk1, perk2, perk3, perk4 = employee_info
+(
+    employee_name,
+    employee_last_name,
+    *personal_employee_info,
+    employee_salary,
+    perk1,
+    perk2,
+    perk3,
+    perk4,
+) = employee_info
 print("employee_name :", employee_name)
 print("employee_last_name :", employee_last_name)
 print("personal_employee_info :", personal_employee_info)

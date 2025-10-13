@@ -11,7 +11,7 @@ df_first_shift = pd.read_excel(excel_file, sheet_name="Movimiento2023")
 # print(df_first_shift.columns)
 
 df_first_shift["DESCRIPCIÓN"] = df_first_shift["DESCRIPCIÓN"].str.strip()
-df_first_shift["VALOR"] = df_first_shift["VALOR"].str.replace(',', '').astype(float)
+df_first_shift["VALOR"] = df_first_shift["VALOR"].str.replace(",", "").astype(float)
 
 total_values = df_first_shift.groupby("DESCRIPCIÓN", as_index=False)["VALOR"].sum()
 

@@ -1,4 +1,3 @@
-
 numbers = range(0, 11, 2)
 
 print("Numbers being printed in line: ")

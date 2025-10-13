@@ -62,7 +62,7 @@ print(f"{num:{spec}}")
 # Trick 8
 
 custom_folder: str = "my_folder"
-path: str = fr"\Users\fico\documents\{custom_folder}"
+path: str = rf"\Users\fico\documents\{custom_folder}"
 print(path)
 
 

@@ -1,6 +1,7 @@
 import asyncio
 import random
 
+
 async def long_operation():
     duration: int = random.randint(1, 10)
     await asyncio.sleep(duration)
@@ -14,5 +15,5 @@ async def main():
         print("Took too long...")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     asyncio.run(main())

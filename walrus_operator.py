@@ -12,6 +12,3 @@ while (user_input := input("Enter a word (or 'quit' to exit): ")) != "quit":
 
 (user_input := input("Enter a word (or 'quit' to exit): "))
 print("user_input: ", user_input)
-
-
-

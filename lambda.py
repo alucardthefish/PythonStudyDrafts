@@ -1,4 +1,3 @@
-
 # Lambda (anonymous) functions
 
 # def double(n: int) -> int:
@@ -15,5 +14,5 @@ print(f"{larger(10, 48) = }")
 
 names: list[str] = ["Alan", "Gregory", "Zlatan", "Jonas", "Tom", "Augustine"]
 
-names.sort(key=lambda x:len(x))
+names.sort(key=lambda x: len(x))
 print(f"{names = }")

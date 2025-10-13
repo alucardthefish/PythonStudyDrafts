@@ -36,5 +36,6 @@ async def main():
 
     await asyncio.wait(pending)
 
+
 if __name__ == "__main__":
     asyncio.run(main())

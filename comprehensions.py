@@ -25,6 +25,8 @@ print(f"{square_dict = }")
 
 old_price: dict = {"milk": 1.02, "coffe": 2.5, "bread": 2.5}
 
-new_price: dict = {key: value*1.5 if value > 2 else value for (key, value) in old_price.items()}
+new_price: dict = {
+    key: value * 1.5 if value > 2 else value for (key, value) in old_price.items()
+}
 
 print(f"{new_price = }")
